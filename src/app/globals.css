@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand color system mapped to CSS variables for easy swapping */
+  --color-primary: #0252b3;          /* Deep blue brand color */
+  --color-primary-hover: #013e8a;    /* Darker blue for hover states */
+  --color-secondary: #0a2540;        /* Deep navy for headings and section labels */
+  --color-accent: #00c853;           /* Vivid green for active badges/WhatsApp CTAs */
+  --color-accent-hover: #00a846;     /* Darker green for hover states */
+  --color-footer-bg: #030d1a;         /* Dark navy/black for the footer card */
+  
+  --background: #f8fafc;
+  --foreground: #1e293b;
+  --card-background: #ffffff;
+}
+
+@theme {
+  --color-primary: var(--color-primary);
+  --color-primary-hover: var(--color-primary-hover);
+  --color-secondary: var(--color-secondary);
+  --color-accent: var(--color-accent);
+  --color-accent-hover: var(--color-accent-hover);
+  --color-footer-bg: var(--color-footer-bg);
+  --color-card-bg: var(--card-background);
+  --font-size-2xs: 0.7rem;
+  --font-size-3xs: 0.625rem;
+  --font-size-4xs: 0.55rem;
+}
+
+/* Custom premium scrollbar and base settings */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Layout overlay background just like in the screenshot - subtle top radial blue gradient */
+.hero-gradient {
+  background: radial-gradient(circle at top right, rgba(2, 82, 179, 0.08) 0%, rgba(255, 255, 255, 0) 60%),
+              linear-gradient(to bottom, #e0f2fe 0%, #f8fafc 100%);
+}
+
+.partner-logo-grayscale {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.partner-logo-grayscale:hover {
+  filter: grayscale(0%);
+  opacity: 0.9;
+}
+
+/* Custom styling for premium card shadows and hover effects */
+.premium-card-shadow {
+  box-shadow: 0 8px 30px -6px rgba(10, 37, 64, 0.08), 0 4px 12px -3px rgba(10, 37, 64, 0.03);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.premium-card-shadow:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 35px -8px rgba(2, 82, 179, 0.15), 0 10px 20px -6px rgba(2, 82, 179, 0.06);
+  border-color: rgba(2, 82, 179, 0.25);
+}
+
