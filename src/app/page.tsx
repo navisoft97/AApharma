@@ -14,7 +14,7 @@ export default function Home() {
     <>
       {/* Structural layout shell using semantic HTML */}
       <Navbar />
-      
+
       <main className="flex-1">
         {/* Visual sections matching image_af06c9.jpg */}
         <Hero />
