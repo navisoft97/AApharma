@@ -26,9 +26,10 @@ export const siteConfig = {
       postalCode: "560099",
       country: "IN",
       cityStateZip: "Bengaluru, Karnataka — 560099",
-      mapCoordinates: "12.8123, 77.6908",
-      latitude: 12.8123,
-      longitude: 77.6908,
+      mapCoordinates: "12.8227108, 77.6864084",
+      latitude: 12.8227108,
+      longitude: 77.6864084,
+      mapsUrl: "https://www.google.com/maps/search/?api=1&query=12.8227108,77.6864084",
       embedPlaceholderText: "Map Placeholder"
     }
   },
@@ -98,8 +99,8 @@ export const siteConfig = {
         id: "health-screenings",
         title: "Health Screenings",
         desc: "Comprehensive blood tests, cholesterol, and preventive health panels.",
-        linkText: "View Packages",
-        href: "https://wa.me/919999999999?text=Hi%2C%20I%20want%20to%20view%20Health%20Screenings%20packages.",
+        linkText: "Enquire",
+        href: "https://wa.me/919999999999?text=Hi%2C%20I%20want%20to%20enquire%20about%20Health%20Screenings.",
         imagePlaceholder: "Health Screenings"
       },
       {

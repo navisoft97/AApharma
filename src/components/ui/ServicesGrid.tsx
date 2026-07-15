@@ -10,80 +10,57 @@ export default function ServicesGrid() {
     switch (id) {
       case 'prescription-medicines':
         return (
-          <div className="relative flex h-36 w-full items-center justify-center rounded-xl bg-sky-50 overflow-hidden border border-sky-100/50">
-            <div className="absolute inset-0 bg-radial-gradient from-sky-200/30 to-transparent" />
-            <div className="relative flex items-center justify-center gap-2">
-              <div className="flex h-16 w-10 items-center justify-center rounded-lg bg-primary text-white shadow-md transform -rotate-12">
-                <Pill className="h-6 w-6" />
-              </div>
-              <div className="flex h-12 w-10 items-center justify-center rounded-lg bg-accent text-white shadow-md transform rotate-12">
-                <span className="text-sm font-bold">Rx</span>
-              </div>
-            </div>
-            <div className="absolute bottom-2.5 right-3 flex items-center gap-1 text-3xs text-primary font-bold">
-              <Sparkles className="h-3 w-3" /> Fully Stocked
+          <div className="relative h-36 w-full overflow-hidden rounded-xl border border-slate-100 shadow-inner">
+            <img
+              src="/prescription-medicines.jpg"
+              alt="Prescription Medicines"
+              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent opacity-80" />
+            <div className="absolute bottom-2.5 right-3 flex items-center gap-1 rounded-md bg-white/95 px-2 py-0.5 text-[9px] text-primary font-black uppercase tracking-wider shadow-sm border border-slate-100/50 backdrop-blur-xs">
+              <Sparkles className="h-3 w-3 fill-primary/10" /> Fully Stocked
             </div>
           </div>
         );
       case 'health-screenings':
         return (
-          <div className="relative flex h-36 w-full items-center justify-center rounded-xl bg-emerald-50 overflow-hidden border border-emerald-100/50">
-            <div className="absolute inset-0 bg-radial-gradient from-emerald-200/30 to-transparent" />
-            <div className="relative flex items-center justify-center">
-              <div className="flex h-16 w-14 flex-col rounded-lg bg-white p-2.5 shadow-md border border-slate-100">
-                <div className="h-2 w-full bg-slate-200 rounded-full mb-1.5" />
-                <div className="h-1.5 w-[70%] bg-accent rounded-full mb-1" />
-                <div className="h-1.5 w-[85%] bg-slate-200 rounded-full mb-1" />
-                <div className="h-1.5 w-[50%] bg-primary rounded-full" />
-              </div>
-              <div className="absolute -bottom-1 -right-2 flex h-8 w-8 items-center justify-center rounded-full bg-accent text-white shadow-md">
-                <HeartPulse className="h-4.5 w-4.5" />
-              </div>
-            </div>
-            <div className="absolute bottom-2.5 right-3 flex items-center gap-1 text-3xs text-accent font-bold">
-              <Sparkles className="h-3 w-3" /> Fast Reports
+          <div className="relative h-36 w-full overflow-hidden rounded-xl border border-slate-100 shadow-inner">
+            <img
+              src="/health-screenings.jpg"
+              alt="Health Screenings"
+              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent opacity-80" />
+            <div className="absolute bottom-2.5 right-3 flex items-center gap-1 rounded-md bg-white/95 px-2 py-0.5 text-[9px] text-accent font-black uppercase tracking-wider shadow-sm border border-slate-100/50 backdrop-blur-xs">
+              <Sparkles className="h-3 w-3 fill-accent/10" /> Fast Reports
             </div>
           </div>
         );
       case 'otc-essentials':
         return (
-          <div className="relative flex h-36 w-full items-center justify-center rounded-xl bg-amber-50 overflow-hidden border border-amber-100/50">
-            <div className="absolute inset-0 bg-radial-gradient from-amber-200/30 to-transparent" />
-            <div className="relative flex items-center justify-center gap-1.5">
-              <div className="h-12 w-12 rounded-xl bg-white border border-slate-100 shadow-sm flex items-center justify-center text-amber-500 font-bold">
-                C
-              </div>
-              <div className="h-10 w-10 rounded-xl bg-amber-500 text-white shadow-sm flex items-center justify-center font-bold">
-                D3
-              </div>
-              <div className="h-8 w-8 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-bold">
-                Zn
-              </div>
-            </div>
-            <div className="absolute bottom-2.5 right-3 flex items-center gap-1 text-3xs text-amber-600 font-bold">
-              <Sparkles className="h-3 w-3" /> Daily Wellness
+          <div className="relative h-36 w-full overflow-hidden rounded-xl border border-slate-100 shadow-inner">
+            <img
+              src="/otc-essentials.jpg"
+              alt="OTC Essentials"
+              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent opacity-80" />
+            <div className="absolute bottom-2.5 right-3 flex items-center gap-1 rounded-md bg-white/95 px-2 py-0.5 text-[9px] text-amber-600 font-black uppercase tracking-wider shadow-sm border border-slate-100/50 backdrop-blur-xs">
+              <Sparkles className="h-3 w-3 fill-amber-500/10" /> Daily Wellness
             </div>
           </div>
         );
       case 'medical-devices':
         return (
-          <div className="relative flex h-36 w-full items-center justify-center rounded-xl bg-indigo-50 overflow-hidden border border-indigo-100/50">
-            <div className="absolute inset-0 bg-radial-gradient from-indigo-200/30 to-transparent" />
-            <div className="relative flex flex-col items-center justify-center rounded-lg bg-white p-2.5 shadow-md border border-slate-100 w-24">
-              <div className="flex items-center justify-between w-full mb-1">
-                <span className="text-[10px] font-extrabold text-indigo-600">SYS</span>
-                <span className="text-[10px] font-bold text-slate-800">120 mmHg</span>
-              </div>
-              <div className="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden">
-                <div className="bg-indigo-500 h-full w-[80%]" />
-              </div>
-              <div className="flex items-center justify-between w-full mt-1.5">
-                <Stethoscope className="h-3.5 w-3.5 text-indigo-500" />
-                <span className="text-[9px] font-black text-slate-400">PULSE: 72</span>
-              </div>
-            </div>
-            <div className="absolute bottom-2.5 right-3 flex items-center gap-1 text-3xs text-indigo-600 font-bold">
-              <Sparkles className="h-3 w-3" /> Calibrated
+          <div className="relative h-36 w-full overflow-hidden rounded-xl border border-slate-100 shadow-inner">
+            <img
+              src="/medical-devices.jpg"
+              alt="Medical Devices"
+              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent opacity-80" />
+            <div className="absolute bottom-2.5 right-3 flex items-center gap-1 rounded-md bg-white/95 px-2 py-0.5 text-[9px] text-indigo-600 font-black uppercase tracking-wider shadow-sm border border-slate-100/50 backdrop-blur-xs">
+              <Sparkles className="h-3 w-3 fill-indigo-500/10" /> Calibrated
             </div>
           </div>
         );
@@ -128,7 +105,7 @@ export default function ServicesGrid() {
           {siteConfig.retailSection.services.map((service) => (
             <div
               key={service.id}
-              className="flex flex-col rounded-2xl bg-white p-4 premium-card-shadow"
+              className="flex flex-col rounded-2xl bg-white p-4 premium-card-shadow group"
             >
               {/* Top Graphic Placeholder */}
               <div className="mb-4">

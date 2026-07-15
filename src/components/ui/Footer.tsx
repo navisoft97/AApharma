@@ -8,10 +8,10 @@ export default function Footer() {
   return (
     <footer id="about" className="bg-footer-bg text-slate-400 pt-16 pb-8 border-t border-slate-900">
       <div className="mx-auto max-w-[1440px] px-6 md:px-12 lg:px-8">
-        
+
         {/* Three-Column Grid */}
         <div className="grid grid-cols-1 gap-12 md:grid-cols-3 md:gap-8 pb-12 border-b border-slate-800">
-          
+
           {/* Column 1: Logo, Brand details & Operating Hours */}
           <div className="space-y-6">
             <div className="flex items-center gap-3">
@@ -44,25 +44,38 @@ export default function Footer() {
 
           {/* Column 2: Google Maps Embed Card & Full Address */}
           <div className="space-y-4">
-            
+
             {/* Interactive Google Map Embed */}
             <div className="relative h-44 w-full rounded-2xl bg-slate-900 border border-slate-800 overflow-hidden group hover:border-primary/50 transition-colors shadow-inner">
               <iframe
                 title="Google Maps Location - A&A Pharma Bommasandra"
-                src="https://maps.google.com/maps?q=Bommasandra,%20Bangalore&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=12.8227108,77.6864084&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 className="w-full h-full border-0 grayscale opacity-85 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
+              <a
+                href={siteConfig.contact.address.mapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute bottom-3 right-3 bg-slate-950/80 hover:bg-slate-900 text-white border border-slate-800 rounded-lg px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider transition-all hover:scale-105"
+              >
+                Open in Maps
+              </a>
             </div>
 
             {/* Address Credentials */}
-            <div className="text-2xs font-semibold leading-relaxed">
-              <p className="text-white font-bold">{siteConfig.contact.address.name}</p>
+            <a 
+              href={siteConfig.contact.address.mapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-2xs font-semibold leading-relaxed hover:text-slate-300 transition-colors group/addr"
+            >
+              <p className="text-white font-bold group-hover/addr:text-primary transition-colors">{siteConfig.contact.address.name}</p>
               <p className="text-slate-400 mt-0.5">{siteConfig.contact.address.street}</p>
               <p className="text-slate-500">{siteConfig.contact.address.cityStateZip}</p>
-            </div>
+            </a>
 
           </div>
 
