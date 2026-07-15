@@ -160,22 +160,26 @@ export const siteConfig = {
       {
         title: "Compliant First-Aid Kits",
         desc: "Factory, office, & school personalized kits. Customized per framework.",
-        href: "mailto:procurement@aapharma.com?subject=First-Aid%20Kits%20RFQ"
+        href: "mailto:procurement@aapharma.com?subject=First-Aid%20Kits%20RFQ",
+        image: "/first-aid-kits.png"
       },
       {
         title: "OHC Medical Room Supplies",
         desc: "Complete setup for Occupational Health Centres — consumables and diagnostics.",
-        href: "mailto:procurement@aapharma.com?subject=OHC%20Medical%20Room%20Supplies%20RFQ"
+        href: "mailto:procurement@aapharma.com?subject=OHC%20Medical%20Room%20Supplies%20RFQ",
+        image: "/medical-room-supplies.png"
       },
       {
         title: "Bulk Hygiene & PPE",
         desc: "Masks, gloves, and sanitizers in bulk quantities with documentation.",
-        href: "mailto:procurement@aapharma.com?subject=Bulk%20Hygiene%20and%20PPE%20RFQ"
+        href: "mailto:procurement@aapharma.com?subject=Bulk%20Hygiene%20and%20PPE%20RFQ",
+        image: "/hygiene-ppe.png"
       },
       {
         title: "Emergency Equipment",
         desc: "AEDs, stretchers, and oxygen systems with installation support.",
-        href: "mailto:procurement@aapharma.com?subject=Emergency%20Equipment%20RFQ"
+        href: "mailto:procurement@aapharma.com?subject=Emergency%20Equipment%20RFQ",
+        image: "/emergency-equipment.png"
       }
     ]
   },

@@ -1,41 +1,10 @@
 'use client';
 
 import React from 'react';
-import { ChevronRight, Mail, ClipboardList, Briefcase, Heart, PlusCircle } from 'lucide-react';
+import { ChevronRight, Mail } from 'lucide-react';
 import { siteConfig } from '@/config/content';
 
 export default function CorporateProcurement() {
-  // Render specific icons or mini placeholders for each offering
-  const renderIcon = (index: number) => {
-    switch (index) {
-      case 0:
-        return (
-          <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-red-50 text-red-500 border border-red-100/50 shadow-2xs">
-            <PlusCircle className="h-5.5 w-5.5" />
-          </div>
-        );
-      case 1:
-        return (
-          <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-sky-50 text-primary border border-sky-100/50 shadow-2xs">
-            <ClipboardList className="h-5.5 w-5.5" />
-          </div>
-        );
-      case 2:
-        return (
-          <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-emerald-50 text-accent border border-emerald-100/50 shadow-2xs">
-            <Briefcase className="h-5.5 w-5.5" />
-          </div>
-        );
-      case 3:
-        return (
-          <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-amber-50 text-amber-500 border border-amber-100/50 shadow-2xs">
-            <Heart className="h-5.5 w-5.5" />
-          </div>
-        );
-      default:
-        return null;
-    }
-  };
 
   return (
     <section id="corporate" className="py-16 md:py-24 bg-slate-50/50">
@@ -71,16 +40,21 @@ export default function CorporateProcurement() {
               href={offering.href}
               className="flex items-center justify-between rounded-xl bg-white p-5 premium-card-shadow hover:-translate-y-1 hover:translate-x-0 group"
             >
-              <div className="flex items-start gap-4">
+              <div className="flex items-center gap-4">
                 
-                {/* Micro logo placeholder/icon */}
-                <div className="mt-0.5 shrink-0">
-                  {renderIcon(idx)}
+                {/* Thumbnail Image */}
+                <div className="relative h-20 w-28 shrink-0 overflow-hidden rounded-lg border border-slate-100 shadow-sm">
+                  <img
+                    src={offering.image}
+                    alt={offering.title}
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/20 via-transparent to-transparent opacity-80" />
                 </div>
 
                 {/* Offering Title & Description */}
                 <div>
-                  <h3 className="text-sm font-bold text-secondary">
+                  <h3 className="text-sm font-bold text-secondary group-hover:text-primary transition-colors">
                     {offering.title}
                   </h3>
                   <p className="text-2xs text-slate-500 leading-relaxed mt-1">{offering.desc}</p>
