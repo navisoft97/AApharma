@@ -1,6 +1,5 @@
-'use client';
-
 import React from 'react';
+import Image from 'next/image';
 import { ChevronRight, Mail } from 'lucide-react';
 import { siteConfig } from '@/config/content';
 
@@ -44,10 +43,12 @@ export default function CorporateProcurement() {
                 
                 {/* Thumbnail Image */}
                 <div className="relative h-20 w-28 shrink-0 overflow-hidden rounded-lg border border-slate-100 shadow-sm">
-                  <img
+                  <Image
                     src={offering.image}
                     alt={offering.title}
-                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950/20 via-transparent to-transparent opacity-80" />
                 </div>

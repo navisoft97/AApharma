@@ -1,6 +1,5 @@
-'use client';
-
 import React from 'react';
+import Image from 'next/image';
 import { ArrowRight, Activity, Pill, HeartPulse, Stethoscope, Sparkles } from 'lucide-react';
 import { siteConfig } from '@/config/content';
 
@@ -11,10 +10,12 @@ export default function ServicesGrid() {
       case 'prescription-medicines':
         return (
           <div className="relative h-36 w-full overflow-hidden rounded-xl border border-slate-100 shadow-inner">
-            <img
+            <Image
               src="/prescription-medicines.jpg"
               alt="Prescription Medicines"
-              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent opacity-80" />
             <div className="absolute bottom-2.5 right-3 flex items-center gap-1 rounded-md bg-white/95 px-2 py-0.5 text-[9px] text-primary font-black uppercase tracking-wider shadow-sm border border-slate-100/50 backdrop-blur-xs">
@@ -25,10 +26,12 @@ export default function ServicesGrid() {
       case 'health-screenings':
         return (
           <div className="relative h-36 w-full overflow-hidden rounded-xl border border-slate-100 shadow-inner">
-            <img
+            <Image
               src="/health-screenings.jpg"
               alt="Health Screenings"
-              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent opacity-80" />
             <div className="absolute bottom-2.5 right-3 flex items-center gap-1 rounded-md bg-white/95 px-2 py-0.5 text-[9px] text-accent font-black uppercase tracking-wider shadow-sm border border-slate-100/50 backdrop-blur-xs">
@@ -39,10 +42,12 @@ export default function ServicesGrid() {
       case 'otc-essentials':
         return (
           <div className="relative h-36 w-full overflow-hidden rounded-xl border border-slate-100 shadow-inner">
-            <img
+            <Image
               src="/otc-essentials.jpg"
               alt="OTC Essentials"
-              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent opacity-80" />
             <div className="absolute bottom-2.5 right-3 flex items-center gap-1 rounded-md bg-white/95 px-2 py-0.5 text-[9px] text-amber-600 font-black uppercase tracking-wider shadow-sm border border-slate-100/50 backdrop-blur-xs">
@@ -53,10 +58,12 @@ export default function ServicesGrid() {
       case 'medical-devices':
         return (
           <div className="relative h-36 w-full overflow-hidden rounded-xl border border-slate-100 shadow-inner">
-            <img
+            <Image
               src="/medical-devices.jpg"
               alt="Medical Devices"
-              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent opacity-80" />
             <div className="absolute bottom-2.5 right-3 flex items-center gap-1 rounded-md bg-white/95 px-2 py-0.5 text-[9px] text-indigo-600 font-black uppercase tracking-wider shadow-sm border border-slate-100/50 backdrop-blur-xs">

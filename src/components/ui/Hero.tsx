@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import { Send, ShieldCheck, Heart, CheckCircle2, Sparkles } from 'lucide-react';
 import { siteConfig } from '@/config/content';
