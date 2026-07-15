@@ -53,15 +53,15 @@ export default function RootLayout({
     "address": {
       "@type": "PostalAddress",
       "streetAddress": siteConfig.contact.address.street,
-      "addressLocality": "Thane (W)",
-      "addressRegion": "Maharashtra",
-      "postalCode": "400601",
-      "addressCountry": "IN",
+      "addressLocality": siteConfig.contact.address.locality,
+      "addressRegion": siteConfig.contact.address.region,
+      "postalCode": siteConfig.contact.address.postalCode,
+      "addressCountry": siteConfig.contact.address.country,
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 19.2014,
-      "longitude": 72.9782,
+      "latitude": siteConfig.contact.address.latitude,
+      "longitude": siteConfig.contact.address.longitude,
     },
     "openingHoursSpecification": [
       {
@@ -81,14 +81,14 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className={`${inter.variable} scroll-smooth`}>
+    <html lang="en" className={`${inter.variable} scroll-smooth`} suppressHydrationWarning>
       <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
       </head>
-      <body className="min-h-screen flex flex-col font-sans antialiased text-slate-700 bg-slate-50/20">
+      <body className="min-h-screen flex flex-col font-sans antialiased text-slate-700 bg-slate-50/20" suppressHydrationWarning>
         {children}
       </body>
     </html>

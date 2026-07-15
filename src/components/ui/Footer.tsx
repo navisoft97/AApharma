@@ -1,13 +1,13 @@
 'use client';
 
 import React from 'react';
-import { MapPin, Activity, ShieldAlert } from 'lucide-react';
+import { Activity, ShieldAlert } from 'lucide-react';
 import { siteConfig } from '@/config/content';
 
 export default function Footer() {
   return (
     <footer id="about" className="bg-footer-bg text-slate-400 pt-16 pb-8 border-t border-slate-900">
-      <div className="mx-auto max-w-[1440px] px-4 lg:px-6">
+      <div className="mx-auto max-w-[1440px] px-6 md:px-12 lg:px-8">
         
         {/* Three-Column Grid */}
         <div className="grid grid-cols-1 gap-12 md:grid-cols-3 md:gap-8 pb-12 border-b border-slate-800">
@@ -45,20 +45,16 @@ export default function Footer() {
           {/* Column 2: Google Maps Embed Card & Full Address */}
           <div className="space-y-4">
             
-            {/* Map Preview Placeholder Box */}
-            <div className="relative h-44 w-full rounded-2xl bg-slate-900 border border-slate-800 flex flex-col items-center justify-center gap-2 overflow-hidden group hover:border-primary/50 transition-colors">
-              {/* Decorative Grid Lines */}
-              <div className="absolute inset-0 bg-[linear-gradient(to_right,#0f172a_1px,transparent_1px),linear-gradient(to_bottom,#0f172a_1px,transparent_1px)] bg-[size:1.5rem_1.5rem]" />
-              
-              <div className="relative z-10 flex h-10 w-10 items-center justify-center rounded-full bg-primary/20 border border-primary text-primary shadow-sm group-hover:scale-110 transition-transform">
-                <MapPin className="h-5 w-5" />
-              </div>
-              <span className="relative z-10 text-3xs font-bold text-slate-200 uppercase tracking-wider">
-                {siteConfig.contact.address.embedPlaceholderText}
-              </span>
-              <span className="relative z-10 text-4xs text-slate-500 font-semibold">
-                {siteConfig.contact.address.mapCoordinates}
-              </span>
+            {/* Interactive Google Map Embed */}
+            <div className="relative h-44 w-full rounded-2xl bg-slate-900 border border-slate-800 overflow-hidden group hover:border-primary/50 transition-colors shadow-inner">
+              <iframe
+                title="Google Maps Location - A&A Pharma Bommasandra"
+                src="https://maps.google.com/maps?q=Bommasandra,%20Bangalore&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                className="w-full h-full border-0 grayscale opacity-85 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
 
             {/* Address Credentials */}

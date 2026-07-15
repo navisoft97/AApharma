@@ -98,7 +98,7 @@ export default function ServicesGrid() {
 
   return (
     <section id="retail" className="py-16 md:py-24 bg-slate-50/50">
-      <div className="mx-auto max-w-[1440px] px-4 lg:px-6">
+      <div className="mx-auto max-w-[1440px] px-6 md:px-12 lg:px-8">
         
         {/* Section Header with Quick Checkup Badge */}
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between mb-12">

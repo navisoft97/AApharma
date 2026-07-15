@@ -7,7 +7,7 @@ import { siteConfig } from '@/config/content';
 export default function Consultation() {
   return (
     <section id="clinic" className="py-16 md:py-24 bg-white">
-      <div className="mx-auto max-w-[1440px] px-4 lg:px-6">
+      <div className="mx-auto max-w-[1440px] px-6 md:px-12 lg:px-8">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center">
           
           {/* Left Column: Details & Book Action */}

@@ -39,10 +39,10 @@ export default function CorporateProcurement() {
 
   return (
     <section id="corporate" className="py-16 md:py-24 bg-slate-50/50">
-      <div className="mx-auto max-w-[1440px] px-4 lg:px-6">
+      <div className="mx-auto max-w-[1440px] px-6 md:px-12 lg:px-8">
         
         {/* Section Header & RFQ Button */}
-        <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between mb-12">
+        <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between mb-12">
           <div>
             <p className="text-2xs font-bold tracking-wider text-primary uppercase mb-2">
               {siteConfig.corporateSection.category}
@@ -64,12 +64,12 @@ export default function CorporateProcurement() {
         </div>
 
         {/* Aggregate list containers */}
-        <div className="space-y-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {siteConfig.corporateSection.offerings.map((offering, idx) => (
             <a
               key={offering.title}
               href={offering.href}
-              className="flex flex-col sm:flex-row sm:items-center justify-between rounded-xl bg-white p-4 premium-card-shadow hover:translate-x-1 hover:translate-y-0 group"
+              className="flex items-center justify-between rounded-xl bg-white p-5 premium-card-shadow hover:-translate-y-1 hover:translate-x-0 group"
             >
               <div className="flex items-start gap-4">
                 
@@ -80,14 +80,8 @@ export default function CorporateProcurement() {
 
                 {/* Offering Title & Description */}
                 <div>
-                  <h3 className="text-sm font-bold text-secondary flex flex-wrap items-center gap-2">
+                  <h3 className="text-sm font-bold text-secondary">
                     {offering.title}
-                    <span className="inline-flex items-center rounded-full bg-slate-100 px-2.5 py-0.5 text-4xs font-bold text-slate-500 border border-slate-250">
-                      {offering.tag1}
-                    </span>
-                    <span className="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-4xs font-bold text-primary border border-primary/20">
-                      {offering.tag2}
-                    </span>
                   </h3>
                   <p className="text-2xs text-slate-500 leading-relaxed mt-1">{offering.desc}</p>
                 </div>
@@ -95,7 +89,7 @@ export default function CorporateProcurement() {
               </div>
 
               {/* Interactive Chevron indicator */}
-              <div className="flex justify-end pt-3 sm:pt-0 shrink-0">
+              <div className="flex justify-end shrink-0 pl-4">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-50 border border-slate-150 text-slate-400 group-hover:bg-primary/5 group-hover:text-primary transition-colors">
                   <ChevronRight className="h-4.5 w-4.5 transition-transform group-hover:translate-x-0.5" />
                 </div>

@@ -7,7 +7,7 @@ import { siteConfig } from '@/config/content';
 export default function CallToAction() {
   return (
     <section className="py-12 bg-white">
-      <div className="mx-auto max-w-[1440px] px-4 lg:px-6">
+      <div className="mx-auto max-w-[1440px] px-6 md:px-12 lg:px-8">
         
         {/* Full-width colored card anchor */}
         <div className="rounded-3xl bg-primary p-6 md:p-10 shadow-xl border border-primary-hover flex flex-col md:flex-row md:items-center md:justify-between gap-6 relative overflow-hidden">

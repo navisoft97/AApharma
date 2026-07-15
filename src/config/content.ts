@@ -1,29 +1,34 @@
 export const siteConfig = {
-  name: "MedCare Pharmacy",
-  logoText: "MedCare Pharmacy",
+  name: "A&A Pharma",
+  logoText: "A&A Pharma",
   logoSubtext: "Licensed Retail & Corporate",
   tagline: "Licensed & Trusted Since 2005",
-  statusBadge: "● Open Now",
-  
+
   // SEO & General settings
   seo: {
-    title: "MedCare Pharmacy | Retail Pharmacy & Corporate Healthcare Procurement",
+    title: "A&A Pharma | Retail Pharmacy & Corporate Healthcare Procurement",
     description: "Trusted retail pharmacy and enterprise healthcare procurement in Thane. Offering prescription medicines, health screenings, OHC supplies, and medical fitness center services.",
     keywords: ["retail pharmacy", "healthcare procurement", "bulk medicines", "medical room supplies", "health screening", "corporate first aid", "registered MD doctor Thane"],
-    url: "https://www.medcarepharmacy-demo.com",
+    url: "https://www.aapharma-demo.com",
     ogImage: "/og-image.jpg",
   },
 
   // Contact Info
   contact: {
     phone: "+91 99999 99999",
-    whatsapp: "https://wa.me/919999999999?text=Hi%20MedCare%20Pharmacy%2C%20I%20have%20an%20inquiry.",
-    email: "procurement@medcarepharmacy.com",
+    whatsapp: "https://wa.me/919999999999?text=Hi%20A%26A%20Pharma%2C%20I%20have%20an%20inquiry.",
+    email: "procurement@aapharma.com",
     address: {
-      name: "MedCare Pharmacy",
-      street: "Shop-4, Sunrise Complex, MG Road, Thane (W)",
-      cityStateZip: "Maharashtra — 400 601",
-      mapCoordinates: "19.2014, 72.9782",
+      name: "A&A Pharma",
+      street: "Shop-4, Sunrise Complex, Hosur Road, Bommasandra",
+      locality: "Bommasandra",
+      region: "Karnataka",
+      postalCode: "560099",
+      country: "IN",
+      cityStateZip: "Bengaluru, Karnataka — 560099",
+      mapCoordinates: "12.8123, 77.6908",
+      latitude: 12.8123,
+      longitude: 77.6908,
       embedPlaceholderText: "Map Placeholder"
     }
   },
@@ -43,11 +48,11 @@ export const siteConfig = {
     description: "Trusted medicines, expert guidance, and seamless procurement for individuals and enterprises alike. Walk in or reach out — we are here for you.",
     ctaWhatsApp: {
       label: "WhatsApp Local Inquiries",
-      href: "https://wa.me/919999999999?text=Hi%20MedCare%20Pharmacy%2C%20I%20have%20a%20local%20prescription%20inquiry."
+      href: "https://wa.me/919999999999?text=Hi%20A%26A%20Pharma%2C%20I%20have%20a%20local%20prescription%20inquiry."
     },
     ctaCorporate: {
       label: "Email Corporate Requests",
-      href: "mailto:procurement@medcarepharmacy.com?subject=Corporate%20Healthcare%20Procurement%20Request&body=Hi%20MedCare%20Pharmacy%20Procurement%20Team%2C%0A%0AWe%20would%20like%20to%20request%20information%20for%20our%20corporate%20healthcare%20requirements%20listed%20below%3A%0A%0A-%20Item%20Description%3A%0A-%20Estimated%20Quantity%3A%0A-%20Company%20Name%3A%0A-%20Contact%20Person%3A%0A%0AThank%20you."
+      href: "mailto:procurement@aapharma.com?subject=Corporate%20Healthcare%20Procurement%20Request&body=Hi%20A%26A%20Pharma%20Procurement%20Team%2C%0A%0AWe%20would%20like%20to%20request%20information%20for%20our%20corporate%20healthcare%20requirements%20listed%20below%3A%0A%0A-%20Item%20Description%3A%0A-%20Estimated%20Quantity%3A%0A-%20Company%20Name%3A%0A-%20Contact%20Person%3A%0A%0AThank%20you."
     },
     stats: [
       { label: "YEARS TRUSTED", value: "15+" },
@@ -68,7 +73,7 @@ export const siteConfig = {
     ],
     whatsappFloat: {
       label: "Chat on WhatsApp",
-      href: "https://wa.me/919999999999?text=Hi%20MedCare%20Pharmacy%20Team%2C%20I%20want%20to%20connect%20with%20your%20representative."
+      href: "https://wa.me/919999999999?text=Hi%20A%26A%20Pharma%20Team%2C%20I%20want%20to%20connect%20with%20your%20representative."
     }
   },
 
@@ -148,36 +153,28 @@ export const siteConfig = {
     title: "Corporate Healthcare Procurement",
     ctaButton: {
       label: "Email for RFQ / Quote",
-      href: "mailto:procurement@medcarepharmacy.com?subject=Request%20for%20Quote%20-%20Corporate%20Healthcare%20Procurement"
+      href: "mailto:procurement@aapharma.com?subject=Request%20for%20Quote%20-%20Corporate%20Healthcare%20Procurement"
     },
     offerings: [
       {
         title: "Compliant First-Aid Kits",
         desc: "Factory, office, & school personalized kits. Customized per framework.",
-        tag1: "FAST DELIVERY",
-        tag2: "CUSTOM BATCH",
-        href: "mailto:procurement@medcarepharmacy.com?subject=First-Aid%20Kits%20RFQ"
+        href: "mailto:procurement@aapharma.com?subject=First-Aid%20Kits%20RFQ"
       },
       {
         title: "OHC Medical Room Supplies",
         desc: "Complete setup for Occupational Health Centres — consumables and diagnostics.",
-        tag1: "OHC ROOM",
-        tag2: "KEY DEVICES",
-        href: "mailto:procurement@medcarepharmacy.com?subject=OHC%20Medical%20Room%20Supplies%20RFQ"
+        href: "mailto:procurement@aapharma.com?subject=OHC%20Medical%20Room%20Supplies%20RFQ"
       },
       {
         title: "Bulk Hygiene & PPE",
         desc: "Masks, gloves, and sanitizers in bulk quantities with documentation.",
-        tag1: "WHO COMPLIANT",
-        tag2: "LARGE VOLUME",
-        href: "mailto:procurement@medcarepharmacy.com?subject=Bulk%20Hygiene%20and%20PPE%20RFQ"
+        href: "mailto:procurement@aapharma.com?subject=Bulk%20Hygiene%20and%20PPE%20RFQ"
       },
       {
         title: "Emergency Equipment",
         desc: "AEDs, stretchers, and oxygen systems with installation support.",
-        tag1: "AED SUPPLY",
-        tag2: "TRAINING ALIGNED",
-        href: "mailto:procurement@medcarepharmacy.com?subject=Emergency%20Equipment%20RFQ"
+        href: "mailto:procurement@aapharma.com?subject=Emergency%20Equipment%20RFQ"
       }
     ]
   },
@@ -188,7 +185,7 @@ export const siteConfig = {
     desc: "Share your requirements — we'll respond with a detailed BOQ within 24 hours.",
     ctaButton: {
       label: "Email Your Requirements",
-      href: "mailto:procurement@medcarepharmacy.com?subject=Bulk%20Order%20Requirements%20BOQ"
+      href: "mailto:procurement@aapharma.com?subject=Bulk%20Order%20Requirements%20BOQ"
     }
   },
 
@@ -216,6 +213,6 @@ export const siteConfig = {
       title: "DELIVERY & SAFETY DISCLAIMER",
       text: "Local delivery notice: Home delivery within 5 km. Charges apply for beyond 5 km. Prescription requirements: Schedule H, H1 & X medicines dispensed only with valid prescription per the Drugs & Cosmetics Act 1940. Corporate orders: Processed via PO/BOQ contract. All medicines sourced from licensed distributors with valid audit compliance."
     },
-    copyright: "© 2026 MedCare Pharmacy. All Rights Reserved. Designed for Excellence."
+    copyright: "© 2026 A&A Pharma. All Rights Reserved. Designed for Excellence."
   }
 };
