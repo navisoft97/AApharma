@@ -45,8 +45,13 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
+            <a
+              href="/bill-gen"
+              className="text-sm font-bold text-primary hover:text-primary-hover hover:underline transition-colors"
+            >
+              Bill Generator
+            </a>
           </nav>
-
 
         </div>
 

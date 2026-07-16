@@ -15,31 +15,31 @@ export const siteConfig = {
 
   // Contact Info
   contact: {
-    phone: "+91 99999 99999",
-    whatsapp: "https://wa.me/919999999999?text=Hi%20A%26A%20Pharma%2C%20I%20have%20an%20inquiry.",
-    email: "procurement@aapharma.com",
+    phone: "+91 89513 18969",
+    whatsapp: "https://wa.me/918951318969?text=Hi%20A%26A%20Pharma%2C%20I%20have%20an%20inquiry.",
+    email: "vikasvks1996@gmail.com",
     address: {
-      name: "A&A Pharma",
-      street: "Shop-4, Sunrise Complex, Hosur Road, Bommasandra",
-      locality: "Bommasandra",
+      name: "A&A Medicals & General Store #2",
+      street: "So NO 120, 3rd Cross, vidyanagar Bommasandra",
+      locality: "vidyanagar Bommasandra",
       region: "Karnataka",
       postalCode: "560099",
       country: "IN",
-      cityStateZip: "Bengaluru, Karnataka — 560099",
-      mapCoordinates: "12.8227108, 77.6864084",
-      latitude: 12.8227108,
-      longitude: 77.6864084,
-      mapsUrl: "https://www.google.com/maps/search/?api=1&query=12.8227108,77.6864084",
+      cityStateZip: "Bangalore, Karnataka — 560099",
+      mapCoordinates: "12.8118, 77.6885",
+      latitude: 12.8118,
+      longitude: 77.6885,
+      mapsUrl: "https://www.google.com/maps/search/?api=1&query=A%26A+Medicals+%26+General+Store+%232%2C+So+NO+120%2C+3rd+Cross%2C+vidyanagar+Bommasandra%2C+Bangalore+560099",
       embedPlaceholderText: "Map Placeholder"
     }
   },
 
   // Navigation Links
   navLinks: [
-    { label: "Retail", href: "#retail" },
-    { label: "Clinic", href: "#clinic" },
-    { label: "Corporate", href: "#corporate" },
-    { label: "About", href: "#about" },
+    { label: "Retail", href: "/#retail" },
+    { label: "Clinic", href: "/#clinic" },
+    { label: "Corporate", href: "/#corporate" },
+    { label: "About", href: "/#about" },
   ],
 
   // Hero Section
@@ -49,11 +49,11 @@ export const siteConfig = {
     description: "Trusted medicines, expert guidance, and seamless procurement for individuals and enterprises alike. Walk in or reach out — we are here for you.",
     ctaWhatsApp: {
       label: "WhatsApp Local Inquiries",
-      href: "https://wa.me/919999999999?text=Hi%20A%26A%20Pharma%2C%20I%20have%20a%20local%20prescription%20inquiry."
+      href: "https://wa.me/918951318969?text=Hi%20A%26A%20Pharma%2C%20I%20have%20a%20local%20prescription%20inquiry."
     },
     ctaCorporate: {
       label: "Email Corporate Requests",
-      href: "mailto:procurement@aapharma.com?subject=Corporate%20Healthcare%20Procurement%20Request&body=Hi%20A%26A%20Pharma%20Procurement%20Team%2C%0A%0AWe%20would%20like%20to%20request%20information%20for%20our%20corporate%20healthcare%20requirements%20listed%20below%3A%0A%0A-%20Item%20Description%3A%0A-%20Estimated%20Quantity%3A%0A-%20Company%20Name%3A%0A-%20Contact%20Person%3A%0A%0AThank%20you."
+      href: "mailto:vikasvks1996@gmail.com?subject=Corporate%20Healthcare%20Procurement%20Request&body=Hi%20A%26A%20Pharma%20Procurement%20Team%2C%0A%0AWe%20would%20like%20to%20request%20information%20for%20our%20corporate%20healthcare%20requirements%20listed%20below%3A%0A%0A-%20Item%20Description%3A%0A-%20Estimated%20Quantity%3A%0A-%20Company%20Name%3A%0A-%20Contact%20Person%3A%0A%0AThank%20you."
     },
     stats: [
       { label: "YEARS TRUSTED", value: "15+" },
@@ -74,7 +74,7 @@ export const siteConfig = {
     ],
     whatsappFloat: {
       label: "Chat on WhatsApp",
-      href: "https://wa.me/919999999999?text=Hi%20A%26A%20Pharma%20Team%2C%20I%20want%20to%20connect%20with%20your%20representative."
+      href: "https://wa.me/918951318969?text=Hi%20A%26A%20Pharma%20Team%2C%20I%20want%20to%20connect%20with%20your%20representative."
     }
   },
 
@@ -92,7 +92,7 @@ export const siteConfig = {
         title: "Prescription Medicines",
         desc: "Fast dispensing with valid prescription by expert pharmacists.",
         linkText: "Enquire",
-        href: "https://wa.me/919999999999?text=Hi%2C%20I%20want%20to%20enquire%20about%20Prescription%20Medicines.",
+        href: "https://wa.me/918951318969?text=Hi%2C%20I%20want%20to%20enquire%20about%20Prescription%20Medicines.",
         imagePlaceholder: "Prescription Medicines"
       },
       {
@@ -100,7 +100,7 @@ export const siteConfig = {
         title: "Health Screenings",
         desc: "Comprehensive blood tests, cholesterol, and preventive health panels.",
         linkText: "Enquire",
-        href: "https://wa.me/919999999999?text=Hi%2C%20I%20want%20to%20enquire%20about%20Health%20Screenings.",
+        href: "https://wa.me/918951318969?text=Hi%2C%20I%20want%20to%20enquire%20about%20Health%20Screenings.",
         imagePlaceholder: "Health Screenings"
       },
       {
@@ -108,7 +108,7 @@ export const siteConfig = {
         title: "OTC Essentials",
         desc: "Pain relief, cold & flu, first-aid and everyday health essentials.",
         linkText: "Enquire",
-        href: "https://wa.me/919999999999?text=Hi%2C%20I%20want%20to%20enquire%20about%20OTC%20Essentials.",
+        href: "https://wa.me/918951318969?text=Hi%2C%20I%20want%20to%20enquire%20about%20OTC%20Essentials.",
         imagePlaceholder: "OTC Essentials"
       },
       {
@@ -116,7 +116,7 @@ export const siteConfig = {
         title: "Medical Devices",
         desc: "BP monitors, glucometers, nebulizers and wellness tech.",
         linkText: "Enquire",
-        href: "https://wa.me/919999999999?text=Hi%2C%20I%20want%20to%20enquire%20about%20Medical%20Devices.",
+        href: "https://wa.me/918951318969?text=Hi%2C%20I%20want%20to%20enquire%20about%20Medical%20Devices.",
         imagePlaceholder: "Medical Devices"
       }
     ]
@@ -139,7 +139,7 @@ export const siteConfig = {
     ],
     ctaButton: {
       label: "Book Consultation",
-      href: "https://wa.me/919999999999?text=Hi%2C%20I%20want%20to%20book%20an%20appointment%20with%20the%20In-House%20Physician."
+      href: "https://wa.me/918951318969?text=Hi%2C%20I%20want%20to%20book%20an%20appointment%20with%20the%20In-House%20Physician."
     },
     doctorCard: {
       badge: "REGISTERED MD",
@@ -154,31 +154,31 @@ export const siteConfig = {
     title: "Corporate Healthcare Procurement",
     ctaButton: {
       label: "Email for RFQ / Quote",
-      href: "mailto:procurement@aapharma.com?subject=Request%20for%20Quote%20-%20Corporate%20Healthcare%20Procurement"
+      href: "mailto:vikasvks1996@gmail.com?subject=Request%20for%20Quote%20-%20Corporate%20Healthcare%20Procurement"
     },
     offerings: [
       {
         title: "Compliant First-Aid Kits",
         desc: "Factory, office, & school personalized kits. Customized per framework.",
-        href: "mailto:procurement@aapharma.com?subject=First-Aid%20Kits%20RFQ",
+        href: "mailto:vikasvks1996@gmail.com?subject=First-Aid%20Kits%20RFQ",
         image: "/first-aid-kits.png"
       },
       {
         title: "OHC Medical Room Supplies",
         desc: "Complete setup for Occupational Health Centres — consumables and diagnostics.",
-        href: "mailto:procurement@aapharma.com?subject=OHC%20Medical%20Room%20Supplies%20RFQ",
+        href: "mailto:vikasvks1996@gmail.com?subject=OHC%20Medical%20Room%20Supplies%20RFQ",
         image: "/medical-room-supplies.png"
       },
       {
         title: "Bulk Hygiene & PPE",
         desc: "Masks, gloves, and sanitizers in bulk quantities with documentation.",
-        href: "mailto:procurement@aapharma.com?subject=Bulk%20Hygiene%20and%20PPE%20RFQ",
+        href: "mailto:vikasvks1996@gmail.com?subject=Bulk%20Hygiene%20and%20PPE%20RFQ",
         image: "/hygiene-ppe.png"
       },
       {
         title: "Emergency Equipment",
         desc: "AEDs, stretchers, and oxygen systems with installation support.",
-        href: "mailto:procurement@aapharma.com?subject=Emergency%20Equipment%20RFQ",
+        href: "mailto:vikasvks1996@gmail.com?subject=Emergency%20Equipment%20RFQ",
         image: "/emergency-equipment.png"
       }
     ]
@@ -190,7 +190,7 @@ export const siteConfig = {
     desc: "Share your requirements — we'll respond with a detailed BOQ within 24 hours.",
     ctaButton: {
       label: "Email Your Requirements",
-      href: "mailto:procurement@aapharma.com?subject=Bulk%20Order%20Requirements%20BOQ"
+      href: "mailto:vikasvks1996@gmail.com?subject=Bulk%20Order%20Requirements%20BOQ"
     }
   },
 
@@ -207,11 +207,8 @@ export const siteConfig = {
     licenses: {
       title: "LICENSES & REGISTRATIONS",
       list: [
-        { label: "Drug License (Retail)", value: "DL No: MH-TZ4-41122" },
-        { label: "Drug License (Wholesale)", value: "DL No: MH-TZ4-87856" },
-        { label: "GST Registration", value: "27AADCM0000A1Z5" },
-        { label: "FSSAI License", value: "12222044000077" },
-        { label: "Shop Act License", value: "TH/E/II/2021/105331" }
+        { label: "Drug License", value: "KA-B62-288718" },
+        { label: "GST Registration", value: "29GHBPD6906A1ZO" }
       ]
     },
     disclaimer: {

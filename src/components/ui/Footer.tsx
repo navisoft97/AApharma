@@ -46,8 +46,8 @@ export default function Footer() {
             {/* Interactive Google Map Embed */}
             <div className="relative h-44 w-full rounded-2xl bg-slate-900 border border-slate-800 overflow-hidden group hover:border-primary/50 transition-colors shadow-inner">
               <iframe
-                title="Google Maps Location - A&A Pharma Bommasandra"
-                src="https://maps.google.com/maps?q=12.8227108,77.6864084&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                title={`Google Maps Location - ${siteConfig.contact.address.name}`}
+                src={`https://maps.google.com/maps?q=${encodeURIComponent(siteConfig.contact.address.mapCoordinates)}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
                 className="w-full h-full border-0 grayscale opacity-85 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
                 allowFullScreen
                 loading="lazy"
