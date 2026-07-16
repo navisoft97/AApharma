@@ -13,8 +13,8 @@ export default function CallToAction() {
         <div className="rounded-3xl bg-primary p-6 md:p-10 shadow-xl border border-primary-hover flex flex-col md:flex-row md:items-center md:justify-between gap-6 relative overflow-hidden">
           
           {/* Subtle light background circles for design flair */}
-          <div className="absolute -top-12 -right-12 h-44 w-44 rounded-full bg-white/5" />
-          <div className="absolute -bottom-16 -left-16 h-44 w-44 rounded-full bg-white/5" />
+          <div className="absolute -top-12 -right-12 h-44 w-44 rounded-full bg-white/5 pointer-events-none" />
+          <div className="absolute -bottom-16 -left-16 h-44 w-44 rounded-full bg-white/5 pointer-events-none" />
           
           <div className="space-y-2 relative z-10">
             <h3 className="font-sans text-2xl font-black tracking-tight text-white sm:text-3xl">

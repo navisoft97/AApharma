@@ -47,14 +47,14 @@ export default function Footer() {
             <div className="relative h-44 w-full rounded-2xl bg-slate-900 border border-slate-800 overflow-hidden group hover:border-primary/50 transition-colors shadow-inner">
               <iframe
                 title={`Google Maps Location - ${siteConfig.contact.address.name}`}
-                src={`https://maps.google.com/maps?q=${encodeURIComponent(siteConfig.contact.address.mapCoordinates)}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
+                src={`https://maps.google.com/maps?q=${encodeURIComponent(siteConfig.contact.address.mapQuery)}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
                 className="w-full h-full border-0 grayscale opacity-85 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
               <a
-                href={siteConfig.contact.address.mapsUrl}
+                href={siteConfig.contact.address.mapsLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="absolute bottom-3 right-3 bg-slate-950/80 hover:bg-slate-900 text-white border border-slate-800 rounded-lg px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider transition-all hover:scale-105"
@@ -64,8 +64,8 @@ export default function Footer() {
             </div>
 
             {/* Address Credentials */}
-            <a 
-              href={siteConfig.contact.address.mapsUrl}
+            <a
+              href={siteConfig.contact.address.mapsLink}
               target="_blank"
               rel="noopener noreferrer"
               className="block text-2xs font-semibold leading-relaxed hover:text-slate-300 transition-colors group/addr"

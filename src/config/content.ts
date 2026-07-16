@@ -1,12 +1,12 @@
 export const siteConfig = {
-  name: "A&A Pharma",
-  logoText: "A&A Pharma",
+  name: "A&A Medicals and General store",
+  logoText: "A&A Medicals and General store",
   logoSubtext: "Licensed Retail & Corporate",
   tagline: "Licensed & Trusted Since 2005",
 
   // SEO & General settings
   seo: {
-    title: "A&A Pharma | Retail Pharmacy & Corporate Healthcare Procurement",
+    title: "A&A Medicals and General store | Retail Pharmacy & Corporate Healthcare Procurement",
     description: "Trusted retail pharmacy and enterprise healthcare procurement in Thane. Offering prescription medicines, health screenings, OHC supplies, and medical fitness center services.",
     keywords: ["retail pharmacy", "healthcare procurement", "bulk medicines", "medical room supplies", "health screening", "corporate first aid", "registered MD doctor Thane"],
     url: "https://www.aapharma-demo.com",
@@ -16,19 +16,21 @@ export const siteConfig = {
   // Contact Info
   contact: {
     phone: "+91 89513 18969",
-    whatsapp: "https://wa.me/918951318969?text=Hi%20A%26A%20Pharma%2C%20I%20have%20an%20inquiry.",
+    whatsapp: "https://wa.me/918951318969?text=Hi%20A%26A%20Medicals%20and%20General%20store%2C%20I%20have%20an%20inquiry.",
     email: "vikasvks1996@gmail.com",
     address: {
       name: "A&A Medicals & General Store #2",
-      street: "So NO 120, 3rd Cross, vidyanagar Bommasandra",
-      locality: "vidyanagar Bommasandra",
+      street: "So NO 120, 2, 3rd Cross Rd, RS Gardens, Vidyanagar, Bommasandra",
+      locality: "Vidyanagar, Bommasandra",
       region: "Karnataka",
       postalCode: "560099",
       country: "IN",
-      cityStateZip: "Bangalore, Karnataka — 560099",
-      mapCoordinates: "12.8118, 77.6885",
-      latitude: 12.8118,
-      longitude: 77.6885,
+      cityStateZip: "Bengaluru, Karnataka — 560099, India",
+      mapCoordinates: "12.8227272, 77.6867039",
+      latitude: 12.8227272,
+      longitude: 77.6867039,
+      mapQuery: "A&A medical & general store, Bommasandra",
+      mapsLink: "https://www.google.com/maps/place/A%26A+medical+%26+general+store/@12.8229402,77.6868301,17.37z/data=!4m14!1m7!3m6!1s0x3bae6db7db2139bb:0xdad0a2aa51c64344!2sA%26A+medical+%26+general+store!8m2!3d12.8227272!4d77.6867039!16s%2Fg%2F11nr5nflyv!3m5!1s0x3bae6db7db2139bb:0xdad0a2aa51c64344!8m2!3d12.8227272!4d77.6867039!16s%2Fg%2F11nr5nflyv?entry=ttu&g_ep=EgoyMDI2MDcxNC4wIKXMDSoASAFQAw%3D%3D",
       mapsUrl: "https://www.google.com/maps/search/?api=1&query=A%26A+Medicals+%26+General+Store+%232%2C+So+NO+120%2C+3rd+Cross%2C+vidyanagar+Bommasandra%2C+Bangalore+560099",
       embedPlaceholderText: "Map Placeholder"
     }
@@ -49,11 +51,11 @@ export const siteConfig = {
     description: "Trusted medicines, expert guidance, and seamless procurement for individuals and enterprises alike. Walk in or reach out — we are here for you.",
     ctaWhatsApp: {
       label: "WhatsApp Local Inquiries",
-      href: "https://wa.me/918951318969?text=Hi%20A%26A%20Pharma%2C%20I%20have%20a%20local%20prescription%20inquiry."
+      href: "https://wa.me/918951318969?text=Hi%20A%26A%20Medicals%20and%20General%20store%2C%20I%20have%20a%20local%20prescription%20inquiry."
     },
     ctaCorporate: {
       label: "Email Corporate Requests",
-      href: "mailto:vikasvks1996@gmail.com?subject=Corporate%20Healthcare%20Procurement%20Request&body=Hi%20A%26A%20Pharma%20Procurement%20Team%2C%0A%0AWe%20would%20like%20to%20request%20information%20for%20our%20corporate%20healthcare%20requirements%20listed%20below%3A%0A%0A-%20Item%20Description%3A%0A-%20Estimated%20Quantity%3A%0A-%20Company%20Name%3A%0A-%20Contact%20Person%3A%0A%0AThank%20you."
+      href: "mailto:vikasvks1996@gmail.com?subject=Corporate%20Healthcare%20Procurement%20Request&body=Hi%20A%20and%20A%20Medicals%20and%20General%20store%20Procurement%20Team%2C%0D%0A%0D%0AWe%20would%20like%20to%20request%20information%20for%20our%20corporate%20healthcare%20requirements%20listed%20below%3A%0D%0A%0D%0A-%20Item%20Description%3A%0D%0A-%20Estimated%20Quantity%3A%0D%0A-%20Company%20Name%3A%0D%0A-%20Contact%20Person%3A%0D%0A%0D%0AThank%20you."
     },
     stats: [
       { label: "YEARS TRUSTED", value: "15+" },
@@ -74,7 +76,7 @@ export const siteConfig = {
     ],
     whatsappFloat: {
       label: "Chat on WhatsApp",
-      href: "https://wa.me/918951318969?text=Hi%20A%26A%20Pharma%20Team%2C%20I%20want%20to%20connect%20with%20your%20representative."
+      href: "https://wa.me/918951318969?text=Hi%20A%26A%20Medicals%20and%20General%20store%20Team%2C%20I%20want%20to%20connect%20with%20your%20representative."
     }
   },
 
@@ -130,7 +132,7 @@ export const siteConfig = {
     bullets: [
       {
         title: "Doctor availability (7 Days a Week)",
-        desc: "Morning Session: 10:00 AM — 1:00 PM | Evening Session: 5:00 PM — 10:00 PM"
+        desc: "Morning Session: 10:00 AM — 1:00 PM | Evening Session: 6:00 PM — 10:00 PM"
       },
       {
         title: "Fitness Certificates",
@@ -199,9 +201,7 @@ export const siteConfig = {
     operatingHours: {
       title: "OPERATING HOURS",
       schedule: [
-        { days: "Mon - Sat", hours: "9:00 AM - 9:00 PM" },
-        { days: "Sunday", hours: "9:00 AM - 6:00 PM" },
-        { days: "Holidays", hours: "11:00 AM - 2:00 PM" }
+        { days: "Daily", hours: "8:30 AM - 10:30 PM" }
       ]
     },
     licenses: {
@@ -215,6 +215,6 @@ export const siteConfig = {
       title: "DELIVERY & SAFETY DISCLAIMER",
       text: "Local delivery notice: Home delivery within 5 km. Charges apply for beyond 5 km. Prescription requirements: Schedule H, H1 & X medicines dispensed only with valid prescription per the Drugs & Cosmetics Act 1940. Corporate orders: Processed via PO/BOQ contract. All medicines sourced from licensed distributors with valid audit compliance."
     },
-    copyright: "© 2026 A&A Pharma. All Rights Reserved. Designed for Excellence."
+    copyright: "© 2026 A&A Medicals and General store. All Rights Reserved. Designed for Excellence."
   }
 };

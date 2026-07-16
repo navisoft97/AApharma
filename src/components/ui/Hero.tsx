@@ -7,8 +7,8 @@ export default function Hero() {
     <section className="relative overflow-hidden hero-gradient pb-20 pt-12 md:pb-28 md:pt-20">
 
       {/* Subtle Background Glows */}
-      <div className="absolute top-1/4 left-1/10 h-72 w-72 rounded-full bg-primary/5 blur-3xl" />
-      <div className="absolute top-1/3 right-1/4 h-96 w-96 rounded-full bg-accent/5 blur-3xl" />
+      <div className="absolute top-1/4 left-1/10 h-72 w-72 rounded-full bg-primary/5 blur-3xl pointer-events-none" />
+      <div className="absolute top-1/3 right-1/4 h-96 w-96 rounded-full bg-accent/5 blur-3xl pointer-events-none" />
 
       <div className="mx-auto max-w-[1440px] px-6 md:px-12 lg:px-8">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center">

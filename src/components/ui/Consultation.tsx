@@ -80,8 +80,8 @@ export default function Consultation() {
             <div className="relative w-full max-w-md h-[340px] rounded-2xl bg-gradient-to-tr from-slate-100 to-sky-50/50 border border-slate-200/50 shadow-xl flex items-center justify-center p-6 overflow-hidden">
               
               {/* Decorative backgrounds */}
-              <div className="absolute top-0 right-0 h-40 w-40 rounded-full bg-sky-200/10 blur-xl" />
-              <div className="absolute -bottom-10 -left-10 h-40 w-40 rounded-full bg-emerald-200/10 blur-xl" />
+              <div className="absolute top-0 right-0 h-40 w-40 rounded-full bg-sky-200/10 blur-xl pointer-events-none" />
+              <div className="absolute -bottom-10 -left-10 h-40 w-40 rounded-full bg-emerald-200/10 blur-xl pointer-events-none" />
               
               {/* Premium Stethoscope/Medical graphic panel mockup */}
               <div className="relative flex flex-col items-center text-center max-w-xs space-y-4">
